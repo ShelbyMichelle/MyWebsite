@@ -3,6 +3,6 @@
 
 # Installastion instructions
 *Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-*Etiam ullamcorper lectus in dictum sollicitudin.
-*Nulla id neque at risus mollis ultrices
+Etiam ullamcorper lectus in dictum sollicitudin.
+Nulla id neque at risus mollis ultrices
 
