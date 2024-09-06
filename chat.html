@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Mobile (Portrait) */
+@media (max-width: 480px) {
+    /* Styles for small screens */
+    .container{
+        flex-wrap: wrap;
+    }
+}
+
+/* Mobile (Landscape) */
+@media (min-width: 481px) and (max-width: 767px) {
+    /* Styles for larger mobile screens */
+    h1{
+        color: plum;
+    }
+}
+
+/* Tablet (Portrait) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* Styles for tablets in portrait mode */
+    h1{
+        color: pink;
+    }
+    .container{
+
+flex-wrap: wrap;
+}
+    .box{
+        background-color: green;
+    }
+}
+
+/* Tablet (Landscape) */
+@media (min-width: 1025px) and (max-width: 1280px) {
+    /* Styles for tablets and smaller desktops */
+    h1{
+        color: blueviolet;
+    }
+    .box{
+        background-color: aliceblue;
+    }
+}
+
+/* Desktop (Small) */
+@media (min-width: 1281px) and (max-width: 1440px) {
+    /* Styles for small desktop screens */
+}
+
+/* Desktop (Large) */
+@media (min-width: 1441px) and (max-width: 1920px) {
+    /* Styles for larger desktop screens */
+    
+}
+
+/* Extra Large Screens */
+@media (min-width: 1921px) {
+    /* Styles for extra large screens */
+    .container{
+
+        flex-wrap: wrap;
+    }
+}
+    *{
+        margin: 0;
+        box-sizing: border-box;
+        --text-color: #ffff;
+    }
+    .container{
+        display: flex;
+
+    }
+    .box{
+        font-size: 3rem;
+        font-family: 'Courier New', Courier, monospace;
+        background-color: plum;
+        color: var(--text-color);
+        padding: 5rem;
+        max-width: 15rem;
+        margin: 0.5rem;
+        text-align: center;
+    }
+    </style>
+</head>
+<body>
+   <div class="container">
+    <div class="box">Box</div>
+    <div class="box">Box</div>
+    <div class="box">Box</div>
+    <div class="box">Box</div>
+    <div class="box">Box</div>
+    <div class="box">Box</div>
+    <div class="box">Box</div>
+   </div>
+</body>
+</html>
+
